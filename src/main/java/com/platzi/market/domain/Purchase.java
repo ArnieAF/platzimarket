@@ -13,12 +13,12 @@ public class Purchase {
     private String state;
     private List<PurchaseItem> items;
 
-    public int getPurchateId() {
+    public int getPurchaseId() {
         return purchaseId;
     }
 
-    public void setPurchateId(int purchateId) {
-        this.purchaseId = purchateId;
+    public void setPurchaseId(int purchaseId) {
+        this.purchaseId = purchaseId;
     }
 
     public String getClientId() {
@@ -65,7 +65,7 @@ public class Purchase {
         return items;
     }
 
-    public void setItem(List<PurchaseItem> items) {
+    public void setItems(List<PurchaseItem> items) {
         this.items = items;
     }
 }
